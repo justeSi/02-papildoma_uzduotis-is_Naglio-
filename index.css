@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+* {
+  font-family: 'Antonio', sans-serif;
+}
 .centred {
   margin: auto;
   max-width: 80%;
@@ -38,33 +43,51 @@ p {
 }
 p {
   text-align: justify;
+  color: #5c5c5cbb;
+  text-shadow: rgb(59, 59, 59);
+  font-weight: bold;
 }
 h2 {
   color: lightgrey;
 }
 h1 {
-  color: red;
+  color: rgba(255, 0, 0, 0.618);
   font-size: 150%;
+  font-weight: bold;
 }
 a {
-  color: red;
+  color: rgba(255, 0, 0, 0.618);
   font-weight: bold;
 }
 hr {
   border: 1px solid #c2bbbb96;
   background-color: #c2bbbb96;
+  text-shadow: #c2bbbb96;
 }
 .side_img {
   margin-left: 25%;
   margin-right: 25%;
-  width: 55%;
+  width: 50%;
+  min-height: 100%;
+  object-fit: contain;
 }
 .img1 {
-  object-fit: fill;
+  min-height: 100%;
+  margin-left: 25%;
+  object-fit: contain;
+}
+.img2 {
+  object-fit: scale-down;
 }
 @media screen and (max-width: 720px) {
   .grid-container {
     display: flex;
     flex-direction: column;
+  }
+  .img1 {
+    display: inline-block;
+    min-height: auto;
+    min-width: auto;
+    margin: auto;
   }
 }
