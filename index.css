@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
 * {
-  font-family: 'Antonio', sans-serif;
+  font-family: "Antonio", sans-serif;
   font-stretch: narrower;
   text-shadow: -2px 2px 2px rgba(130, 129, 128, 0.118);
   box-sizing: border-box;
@@ -70,13 +70,13 @@ hr {
   padding: 0;
   margin: 0;
   border: 1px solid #c2bbbb96;
-  background-color: #9490906b;
+  background-color: #c2bbbb96;
 }
 .side_img {
   padding: 0;
   margin: 0 25% 0 25%;
   width: 50%;
-  height: 100%;
+  /* height: 100%; */
   object-fit: contain;
 }
 .img1 {
@@ -89,6 +89,9 @@ hr {
   padding: 0;
   margin: 0;
   object-fit: scale-down;
+}
+.clearfix {
+  overflow: auto;
 }
 @media screen and (max-width: 720px) {
   .grid-container {
